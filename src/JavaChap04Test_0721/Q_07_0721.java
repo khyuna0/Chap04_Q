@@ -8,9 +8,9 @@ public class Q_07_0721 {
 		int sum = 0;
 		for(int i=0;i<=100;i++) {
 			if(i % 2 == 0) {
-				sum = sum - i;
+				sum = sum - i; // sum += i
 			} else {
-				sum = sum + i;
+				sum = sum + i;// sum -= i
 			}
 		}
 		System.out.println(sum);

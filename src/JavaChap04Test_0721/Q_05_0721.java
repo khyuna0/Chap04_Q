@@ -10,6 +10,14 @@ public class Q_05_0721 {
 				System.out.println(i);
 			}
 		}
+		System.out.println("=====================");
+		
+		for(int i=1;i<=50;i++) {
+			if(50 % i != 0) {
+				continue;
+			}
+			System.out.println(i);
+		}
 	}
 
 }

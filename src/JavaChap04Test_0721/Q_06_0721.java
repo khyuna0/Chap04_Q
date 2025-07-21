@@ -8,7 +8,7 @@ public class Q_06_0721 {
 		for (int i=1;i<=100;i++) {
 			sum = sum + i;
 			if(sum >= 100) {
-				System.out.println("마지막 수는 "+ i);
+				System.out.println("마지막으로 더한 수 : "+ i);
 				break;
 			}
 		}
