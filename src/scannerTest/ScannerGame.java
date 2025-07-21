@@ -17,7 +17,7 @@ public class ScannerGame {
 		
 		int count = 0; // 횟수 출력용 변수
 		
-		while (true) {
+		while (true) { 
 			count++;
 			
 			System.out.println(" 1~100 사이의 숫자를 입력하세요. ( 0 입력 시 게임 종료 )");
@@ -29,8 +29,10 @@ public class ScannerGame {
 			
 			if(userNum > comNum) {
 				System.out.println("다운");
+				System.out.println("남은 기회는 " + (10 - count) + "번 입니다");
 			} else if (userNum < comNum) {
 				System.out.println("업");
+				System.out.println("남은 기회는 " + (10 - count) + "번 입니다");
 			} else {
 				System.out.println("정답입니다!");
 				System.out.println(count + "번 만에 맞췄습니다.");
@@ -42,6 +44,8 @@ public class ScannerGame {
 				System.out.println("10번 시도했습니다. 게임을 종료합니다.");
 				break;
 			}
+			
+			
 			
 		}
 		
