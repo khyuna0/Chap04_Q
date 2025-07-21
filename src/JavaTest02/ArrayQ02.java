@@ -13,9 +13,6 @@ public class ArrayQ02 {
 			System.out.println(array[a]);
 		}
 		
-		System.out.println("==========");
-		System.out.println(array.length);
-		
 	}
 
 }
