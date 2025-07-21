@@ -1,4 +1,4 @@
-package JavaChap04Test_0721;
+package JavaTest_0721;
 
 public class Q_05_0721 {
 
