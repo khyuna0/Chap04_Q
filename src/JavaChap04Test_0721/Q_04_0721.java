@@ -9,10 +9,8 @@ public class Q_04_0721 {
 		for(int i=1;i<=100;i++) {
 			if( i % 2 == 1) {
 				a = a + 1;
-				
 			} else {
 				b = b + 1;
-				
 			}
 		}
 		System.out.println("홀수 개수는 " + a + "개");

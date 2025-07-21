@@ -1,6 +1,5 @@
 package JavaChap04Test_0721;
 
-import java.util.Iterator;
 
 public class Q_03_0721 {
 
