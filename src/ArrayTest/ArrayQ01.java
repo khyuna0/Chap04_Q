@@ -1,4 +1,4 @@
-package JavaTest02;
+package ArrayTest;
 
 public class ArrayQ01 {
 	public static void main(String[] args) {
