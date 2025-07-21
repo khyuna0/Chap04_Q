@@ -1,7 +1,6 @@
 package Chap05Array;
 
-
-public class ArrayTest03 {
+public class arrayTest03 {
 // 배열 사용 시 주의할 점
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
