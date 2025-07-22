@@ -8,10 +8,11 @@ public class ArrayQ02 {
 		
 		int[] array = { 50, 40, 30, 20, 10 };
 		
-		for(int i=1;i<=5;i++) {
+		for(int i=1;i<=array.length;i++) {
 			int a = array.length - i;
 			System.out.println(array[a]);
 		}
+		
 		
 	}
 
