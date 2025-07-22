@@ -8,7 +8,7 @@ public class ArrayQ05 {
 		
 		int m = 1; // 곱한 값 누적
 		for (int num : array) {
-			m = m*num;
+			m *= num;
 		}
 		System.out.println(m);	
 	}
